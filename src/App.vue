@@ -2,6 +2,7 @@
   <div id="app">
     <Header />
     <Hero />
+    <Features />
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -12,11 +13,13 @@
 <script>
 import Header from "@/views/Header.vue";
 import Hero from "@/views/Hero.vue";
+import Features from "@/views/Features.vue";
 export default {
   name: "app",
   components: {
     Header,
     Hero,
+    Features,
   },
 };
 </script>
